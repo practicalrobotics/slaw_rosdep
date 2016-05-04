@@ -1,3 +1,7 @@
 python-networkx:
   ubuntu:
     pip: [networkx]
+python-iwlibs:
+  ubuntu:
+    apt: [libiw-dev]
+    pip: [iwlib]
