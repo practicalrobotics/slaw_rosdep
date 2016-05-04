@@ -1,31 +1,15 @@
-python-networkx:
-  ubuntu:
-    pip: [networkx]
 libiw:
   ubuntu:
     apt: [libiw-dev]
 python-wifi:
   ubuntu: 
     pip: [python-wifi]
-python-netifaces:
-  ubuntu:
-    pip: [netifaces]
-python-psutil:
-  ubuntu:
-    pip: [psutil]
 python-sensors:
   ubuntu:
     pip: [pysensors]
-python-nut2:
+python-weka-wrapper:
   ubuntu:
-    trusty: |
-      res=$(python -c \"import pkgutil; print (pkgutil.find_loader('nut2') is not None)\")
-        if [ \"$res\" = \"False\" ] ; then
-          mkdir -p ~/ros-deps
-          cd ~/ros-deps
-          wget --tries=10 https://raw.githubusercontent.com/smARTLab-liv/slaw_rosdep/master/python-nut2-v09-2014.zip
-          unzip -o python-nut2-v09-2014.zip
-          cd python-nut2-master
-          sudo python setup.py install
-        fi
-
+    pip: [python-weka-wrapper]
+python-javabridge:
+  ubuntu:
+    pip: [javabridge]
