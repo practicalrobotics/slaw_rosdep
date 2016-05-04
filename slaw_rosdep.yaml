@@ -4,6 +4,16 @@ python-networkx:
 libiw:
   ubuntu:
     apt: [libiw-dev]
-python-iwlibs:
+python-wifi:
   ubuntu: 
-    pip: [iwlib]
+    pip: [python-wifi]
+python-netifaces:
+  ubuntu:
+    pip: [netifaces]
+python-psutil:
+  ubuntu:
+    pip: [psutil]
+python-sensors:
+  ubuntu:
+    pip: [pysensors]
+    
