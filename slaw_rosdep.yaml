@@ -13,6 +13,9 @@ python-weka-wrapper:
 python-javabridge:
   ubuntu:
     pip: [javabridge]
+python-oct2py:
+  ubuntu:
+    pip: [oct2py]
 octave:
   ubuntu:
     apt: [octave]
